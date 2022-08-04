@@ -35,7 +35,7 @@ contract Cryptos is ERC20Interface{
     
     
     constructor(){
-        totalSupply = 1000000;
+        totalSupply = 100000000;
         founder = msg.sender;
         balances[founder] = totalSupply;
     }
