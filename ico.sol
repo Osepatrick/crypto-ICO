@@ -202,3 +202,8 @@ contract CryptosICO is Cryptos{
      
     }
 }
+
+
+
+
+//IDO incoming
