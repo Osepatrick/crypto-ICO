@@ -1,1 +1,6 @@
 # crypto-ICO
+This is a Solidity code implementing an ERC-20 token standard and an ICO (initial coin offering) contract for a token called "Sithari" with symbol "SITH".
+
+The ERC-20 standard is a set of rules that an Ethereum token must follow to be recognized and usable on the Ethereum network. The ERC-20 contract specifies several functions that a token contract must implement, including totalSupply, balanceOf, transfer, allowance, approve, and transferFrom. The Cryptos contract implements these functions and also includes a constructor that sets the total supply of the Sithari token and assigns it to the contract creator's address.
+
+The CryptosICO contract is an ICO contract that extends the Cryptos contract. It defines several parameters for the ICO such as the token price, hard cap, sale start and end times, and maximum and minimum investments. It also includes functions for changing the deposit address, getting the current state of the ICO, and investing in the ICO by sending ether to the contract address. The invest function checks that the ICO is currently running, the investment amount is within the allowed range, and the hard cap has not been reached before assigning tokens to the investor and transferring the ether to the deposit address. Finally, the burn function allows the contract owner to burn any unsold tokens after the ICO has ended.
